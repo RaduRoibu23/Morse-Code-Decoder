@@ -21,9 +21,9 @@ The approach taken in this solution focuses on step-by-step decoding of Morse co
    - Using the `@` symbol as a marker, the Turing Machine traverses from left to right, writing the final message sequentially.
    - Once the message is complete, any remaining characters after the `@` marker are erased to leave a clean result on the tape.
 
-## Task 2: Reversing Key Words
+#Reversing Key Words
 
-For the second task, we begin with the last character of the decoded word and search backward for specific key words. By examining the words in reverse order, we can ensure accurate identification and efficient state transitions.
+F We begin with the last character of the decoded word and search backward for specific key words. By examining the words in reverse order, we can ensure accurate identification and efficient state transitions.
 
 ---
 
